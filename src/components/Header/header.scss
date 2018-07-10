@@ -1,0 +1,30 @@
+.titleBg{
+    background: #d43c33;
+    box-sizing: border-box;
+    display: flex;
+    padding:5% 3%;
+    img{
+        width:78%;
+        vertical-align: top;
+    }
+    div.logo,.downloadbtn{
+        flex:1;
+    }
+    align-items:center;
+    .downloadbtn{
+        text-align: right;
+        span{
+            border:1px solid #fff;
+            color:#fff;
+            display: inline-block;
+            padding:0% 6%;
+            text-align: center;
+            font-size:.3rem;
+            border-radius: .3rem;
+            height: .6rem;
+            line-height: .6rem;
+            vertical-align: top;
+
+        }
+    }
+}

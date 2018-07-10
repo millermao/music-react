@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding:0;
+}
+html, body {
+  -webkit-tap-highlight-color: transparent;
+}
+body{
+  font-size:.28rem;
+  font-family: "微软雅黑"；
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+input{
+  border:none;
+  outline: none;
+  font-size: .28rem;
+}
+input::-webkit-input-placeholder{
+  color:#999;
+}

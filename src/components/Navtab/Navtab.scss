@@ -1,0 +1,14 @@
+.tabBox{
+    display:flex;
+    a{
+        flex:1;
+        text-align: center;
+        line-height: 3em;
+        color:#333;
+        border-bottom:1px solid #999;
+        &.selected{
+            border-bottom:2px solid #d33a31;
+            color:#d33a31;
+        }
+    }
+}
