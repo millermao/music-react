@@ -16,28 +16,14 @@
         height: 0.4rem;
         padding:0.3rem 0;
         line-height: 1.5em;
-        display: block;
     }
 }
 .inforBox{
-    margin-top:4%;
     li{
         height: 0.8rem;
         line-height: 0.8rem;
-        border:1px solid #333;
     }
 }
-.telBox{
-    width:80%;
-    margin:0 auto;
-    margin-top:2%;
-    input{
-        display: block;
-        height:1rem;
-        width:100%;
-        border:1px solid #818181;
-        border-radius: .1rem;
-        font-size: .28rem;
-    }
-  
+.inforBox li{
+
 }

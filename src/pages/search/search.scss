@@ -1,0 +1,40 @@
+
+.inputWrapper{
+    padding:0.3rem 0;
+    border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+.box {
+    background:#ebecec;
+    border-radius: .44rem;
+    width:96%;
+    margin:0 auto;
+    padding: .14rem 0.4rem;
+    overflow: hidden;
+    .searchInput{
+        height: .3rem;
+        width:100%;
+        background:#ebecec;
+    }
+}
+.hottitle{
+    margin-bottom:.3rem;
+    font-size: .28rem;
+    color:#666;
+}
+.hotseach span{
+    display: inline-block;
+    height: .6rem;
+    vertical-align: top;
+    border-radius: .6rem;
+    border:1px solid rgba(0,0,0,.1);
+    line-height: .6rem;
+    padding:0 .3rem;
+    margin-right: .2rem;
+    margin-bottom:.2rem;
+    color:#333;
+}
+.titleBox{
+    margin-top:.3rem;
+    padding:0 .3rem;
+}

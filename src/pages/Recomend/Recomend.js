@@ -99,7 +99,8 @@ import Skeleton from 'react-loading-skeleton';
         )
     }
     componentDidMount(){
-        setTimeout(()=>{
+         
+        this.timer = setTimeout(()=>{
             this.setState({
                 loading:false
             })
@@ -139,12 +140,16 @@ import Skeleton from 'react-loading-skeleton';
                 ]
             })
         },1000);
-        setTimeout(()=>{
-            this.state.newlist=[{
+        // setTimeout(()=>{
+        //     this.state.newlist=[{
               
-            }]
-        },400)
+        //     }]
+        // },400)
     }
+    componentWillUnmount() {
+        clearTimeout(this.timer)
+    }
+
 }
 
 export default Recomend

@@ -2,11 +2,13 @@
   margin:0;
   padding:0;
 }
+*, *:before, *:after { max-height: 100000px }
 html, body {
   -webkit-tap-highlight-color: transparent;
+  text-size-adjust:none;
 }
 body{
-  font-size:.28rem;
+  font-size:.30rem;
   font-family: "微软雅黑"；
 }
 *{
